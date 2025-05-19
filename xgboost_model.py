@@ -17,7 +17,7 @@ class XGBoostRegressor:
         
     def predict(self, X):
         """Make predictions using the trained model"""
-        return self.model.predict(X)
+        return self.model.predict(X) 
     
     def evaluate(self, X_test, y_test):
         """Evaluate the model performance"""
